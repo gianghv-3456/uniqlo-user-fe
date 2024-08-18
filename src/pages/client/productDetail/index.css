@@ -1,0 +1,63 @@
+.carousel-button {
+  height: 40px;
+  margin: -20px 0 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  z-index: 1;
+  background-color: rgba(230, 224, 224, 0.75);
+}
+
+.carousel-button:hover {
+  background-color: rgba(146, 145, 145, 0.75);
+  color: #fff;
+}
+
+.carousel-button-prev {
+  left: 0;
+}
+
+.carousel-button-next {
+  right: 0;
+}
+
+.img-active {
+  border: 1px solid #dadada;
+  padding: 4px;
+}
+
+.image-main {
+  animation: fadeLeft 0.5s linear;
+}
+
+@keyframes fadeLeft {
+  from {
+    transform: translateX(10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.dot-selected {
+  width: 18px !important;
+  height: 18px !important;
+  background: #000 !important;
+}
+
+.color-active {
+  background-color: #281919;
+  border-color: transparent;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #1f1a1a;
+}
+
+#icon-dropdown {
+  transition: all 0.2s linear;
+}
+
+.dropdown-rote {
+  transform: rotate(-180deg);
+}

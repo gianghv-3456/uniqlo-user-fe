@@ -1,0 +1,62 @@
+.q-button {
+  height: 36px;
+  border: 1px solid transparent;
+  padding: 0 16px;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.q-button-primary {
+  background-color: #007aff;
+}
+
+.q-button-primary:hover {
+  background-color: #3395ff;
+}
+
+.q-button-primary:active,
+.q-button-primary:focus {
+  background-color: #0062cc;
+}
+
+.q-button-secondary {
+  border: 1px solid #e6e6e6;
+  color: #111;
+  background-color: transparent;
+}
+
+.q-button-secondary:hover {
+  background-color: #d2d3d6;
+}
+
+.q-button-secondary:focus,
+.q-button-secondary:active {
+  background-color: #d2d3d6;
+}
+
+.q-button-danger {
+  background-color: #e60000;
+}
+
+.q-button-danger:hover {
+  background-color: #eb3333;
+}
+
+.q-button-danger:focus,
+.q-button-danger:active {
+  background-color: #b80000;
+}
+
+.q-button-success {
+  background-color: #2ca01c;
+}
+
+.q-button-success:hover {
+  background-color: #35bf22;
+}
+
+.q-button-success:active,
+.q-button-success:focus {
+  background-color: #2ca01c;
+}

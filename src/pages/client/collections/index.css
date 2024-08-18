@@ -1,0 +1,17 @@
+.tab-active {
+  border-bottom: 4px solid #378694;
+  color: #1b1b1b !important;
+}
+
+.sort-active {
+  background-color: rgba(0, 0, 0, 0.035);
+  color: #378694;
+}
+
+.brand-select {
+  cursor: pointer;
+}
+
+.brand-select:hover {
+  color: #f00;
+}

@@ -1,0 +1,30 @@
+.loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 10000;
+}
+
+.loader {
+  height: 50px;
+  width: 50px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  border-right: 5px solid transparent;
+  animation: loader 0.8s linear infinite;
+}
+
+@keyframes loader {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
